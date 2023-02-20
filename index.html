@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>&ast;&ast;&#x30bf;&#x30a4;&#x30c8;&#x30eb;&ast;&ast;</title>
+        <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+        
+    </head>
+    <body class="vscode-body vscode-light">
+        <h1 id="タイトル"><strong>タイトル</strong></h1>
+<p><img src="https://user-images.githubusercontent.com/122655581/214481631-00df5190-2ac8-4540-b510-2811f1c85545.png" alt="タイトル画面">
+]
+<a href="https://youtu.be/7J1gYK-grFM">https://youtu.be/7J1gYK-grFM</a></p>
+<h1 id="目次"><strong>目次</strong></h1>
+<ul>
+<li><a href="#1%E8%87%AA%E5%B7%B1%E7%B4%B9%E4%BB%8B"><strong>1.自己紹介</strong></a></li>
+<li><a href="#2%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB"><strong>2.はじめに</strong></a></li>
+<li><a href="#3%E4%BD%9C%E5%93%81%E6%A6%82%E8%A6%81"><strong>3.作品概要</strong></a></li>
+<li><a href="#4%E3%82%B2%E3%83%BC%E3%83%A0%E5%86%85%E5%AE%B9"><strong>4.ゲーム内容</strong></a></li>
+<li><a href="#5%E6%93%8D%E4%BD%9C%E5%86%85%E5%AE%B9"><strong>5.操作内容</strong></a></li>
+<li><a href="#6%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E5%8B%95%E4%BD%9C"><strong>6.基本的な動作</strong></a></li>
+<li><a href="#7%E6%8A%80%E8%A1%93%E7%B4%B9%E4%BB%8B"><strong>7.技術紹介</strong></a>
+<ul>
+<li><a href="#a%E9%87%8D%E5%8A%9B%E3%81%AE%E5%90%91%E3%81%8D%E5%A4%89%E6%9B%B4"><strong>a.重力の向き変更</strong> </a></li>
+<li><a href="#b%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B8%E3%81%AE%E7%94%9F%E6%88%90"><strong>b.ステージの生成</strong></a></li>
+<li><a href="#c%E8%90%BD%E4%B8%8B%E5%88%A4%E5%AE%9A"><strong>c.落下判定</strong></a></li>
+</ul>
+</li>
+<li><a href="#8%E3%81%BE%E3%81%A8%E3%82%81"><strong>8.まとめ</strong></a></li>
+</ul>
+<h1 id="1自己紹介"><strong>1.自己紹介</strong></h1>
+<blockquote>
+<h2 id="氏名"><strong>氏名</strong></h2>
+<h3 id="伊藤大起"><strong>・伊藤　大起</strong></h3>
+<h2 id="所属"><strong>所属</strong></h2>
+<h3 id="河原電子ビジネス専門学校"><strong>・河原電子ビジネス専門学校</strong></h3>
+</blockquote>
+<br>
+<h1 id="2はじめに"><strong>2.はじめに</strong></h1>
+<blockquote>
+<h2 id="わたしは今までオートランというゲームジャンルを作ったことがなかったため今回のゲームコンペティションがいいきっかけだと思い今回のゲームを作成しました"><strong>わたしは今までオートランというゲームジャンルを作ったことがなかったため、今回のゲームコンペティションがいいきっかけだと思い今回のゲームを作成しました。</strong></h2>
+<h2 id="しかしただ走り続けるゲームでは面白くないかなと思いそれだったらいっそのこと壁や床天井すべてを縦横無尽に走り回れるゲーム作ってしまおうと考えました"><strong>しかし、ただ走り続けるゲームでは、面白くないかなと思いそれだったらいっそのこと、壁や床、天井すべてを縦横無尽に走り回れるゲーム作ってしまおうと考えました。</strong></h2>
+<h2 id="そして完成に至ったのが今回の重力の向きを変更して走り回るゲームです"><strong>そして完成に至ったのが今回の重力の向きを変更して走り回るゲームです。</strong></h2>
+</blockquote>
+<br>
+<h1 id="3作品概要"><strong>3.作品概要</strong></h1>
+<blockquote>
+<h2 id="タイトル"><strong>・タイトル</strong></h2>
+<h3 id="garvityrun"> <strong>GarvityRun</strong></h3>
+<h2 id="制作人数"><strong>・制作人数</strong></h2>
+<h3 id="１人"> <strong>１人</strong></h3>
+<h2 id="制作期間"><strong>・制作期間</strong></h2>
+<h3 id="2022年10月2023年1月ゲームコンペティション"> <strong>2022年10月～2023年1月（ゲームコンペティション）</strong></h3>
+<h2 id="ゲームジャンル"><strong>・ゲームジャンル</strong></h2>
+<h3 id="オートラン"> <strong>オートラン</strong></h3>
+<h2 id="プレイ人数"><strong>・プレイ人数</strong></h2>
+<h3 id="1人"> <strong>1人</strong></h3>
+<h2 id="対応ハード"><strong>・対応ハード</strong></h2>
+<h3 id="pcwindows"> <strong>PCWindows</strong></h3>
+<h3 id="psコントローラー"> <strong>PSコントローラー</strong></h3>
+<h2 id="使用言語"><strong>・使用言語</strong></h2>
+<h3 id="c"> <strong>C++</strong></h3>
+<h2 id="開発環境"><strong>・開発環境</strong></h2>
+<h2 id="アエンジン"> <strong>ア.エンジン</strong></h2>
+<h3 id="学校内製エンジンk2engine">  <strong>学校内製エンジン(k2Engine)</strong></h3>
+<h2 id="イプログラム"> <strong>イ.プログラム</strong></h2>
+<h3 id="visual-studio-2022">  <strong>Visual Studio 2022</strong></h3>
+<h2 id="ウ3dモデル"> <strong>ウ.3Dモデル</strong></h2>
+<h3 id="3dsmax">  <strong>3dsMAX</strong></h3>
+<h2 id="エエフェクト"> <strong>エ.エフェクト</strong></h2>
+<h3 id="effeckseer">  <strong>Effeckseer</strong></h3>
+<h2 id="オ画像"> <strong>オ.画像</strong></h2>
+<h3 id="adobe-photoshop">  <strong>Adobe Photoshop</strong></h3>
+<h2 id="カバージョン管理"> <strong>カ.バージョン管理</strong></h2>
+<h3 id="git-hub">  <strong>Git hub</strong></h3>
+<h2 id="キ連絡"> <strong>キ.連絡</strong></h2>
+<h3 id="slack">  <strong>Slack</strong></h3>
+</blockquote>
+<br>
+<h1 id="4ゲーム内容"><strong>4.ゲーム内容</strong></h1>
+<blockquote>
+<h2 id="unityちゃんが四方向にある壁を重力の向きを変更しながら走り続けるゲームです"><strong>Unityちゃんが四方向にある壁を重力の向きを変更しながら、走り続けるゲームです。</strong></h2>
+<h2 id="このゲームの目的としては落ちないように重力を変更しコイン集めて限界まで走り続けてスコアを稼ぐことが目的です"><strong>このゲームの目的としては落ちないように重力を変更しコイン集めて、限界まで走り続けてスコアを稼ぐことが目的です。</strong></h2>
+</blockquote>
+<p><img src="https://user-images.githubusercontent.com/122655581/216985942-7e5060a4-be4b-45ed-a6a7-9063c3106c6f.png" alt="ゲーム画面"></p>
+<br>
+<h1 id="5操作内容"><strong>5.操作内容</strong></h1>
+<blockquote>
+<h2 id="タイトル画面での操作"><strong>タイトル画面での操作</strong></h2>
+<h3 id="aボタン戻る"> <strong>Aボタン：戻る</strong></h3>
+<h3 id="bボタン決定"> <strong>Bボタン：決定</strong></h3>
+<h3 id="キー切替"> <strong>＋キー：切替</strong></h3>
+<h2 id="ゲーム画面での操作"><strong>ゲーム画面での操作</strong></h2>
+<h3 id="lステック移動"> <strong>Lステック：移動</strong></h3>
+<h3 id="キー重力の向き変更"> <strong>＋キー：重力の向き変更</strong></h3>
+<h3 id="aボタンジャンプ"> <strong>Aボタン：ジャンプ</strong></h3>
+</blockquote>
+<p><img src="https://user-images.githubusercontent.com/122655581/217409682-b9ccde03-f7ec-461c-a1c8-e13e68ad4ca2.png" alt="mdタイトル画面">
+<img src="https://user-images.githubusercontent.com/122655581/217409781-e26085ce-af0e-400d-aa13-fb8fb260b5fe.png" alt="mdゲーム画面">
+<br></p>
+<h1 id="6基本的な動作"><strong>6.基本的な動作</strong></h1>
+<blockquote>
+<h2 id="このゲームではその時の重力の向きに対する高さの座標を一定数値にすることで地面にいるみたいに表現しています"><strong>このゲームでは、その時の重力の向きに対する高さの座標を一定数値にすることで地面にいるみたいに表現しています。</strong></h2>
+<h2 id="そのためジャンプしたときにのみ重力が効くようにしています"><strong>そのためジャンプしたときにのみ、重力が効くようにしています。</strong></h2>
+</blockquote>
+<p><img src="https://user-images.githubusercontent.com/122655581/218236248-0d446567-9ea8-494f-99bd-087e933263ea.png" alt="基本説明１"></p>
+<br>
+<h1 id="7技術紹介"><strong>7.技術紹介</strong></h1>
+<blockquote>
+<h1 id="a重力の向き変更"><strong>a.重力の向き変更</strong></h1>
+<h2 id="重力の向きはstateで重力の向きを管理しています"><strong>重力の向きはStateで重力の向きを管理しています。</strong></h2>
+<h2 id="そのため重力の向きを変えるときに向きに対する高さの座標を少し上げることによって無理やり重力を発生させています"><strong>そのため重力の向きを変えるときに、向きに対する高さの座標を少し上げることによって、無理やり重力を発生させています。</strong></h2>
+<p><img src="https://user-images.githubusercontent.com/122655581/218256413-59e624b1-5660-4913-b0d3-f4c92f733e82.png" alt="重力説明"></p>
+<h2 id="しかしこれだけでは一つ問題が発生してしまいます"><strong>しかしこれだけでは、一つ問題が発生してしまいます。</strong></h2>
+<h2 id="それは重力を変更したときにジャンプをしているとそのまま壁に移動するのではなく斜め方向に移動し続けてしまいます"><strong>それは、重力を変更したときにジャンプをしていると、そのまま壁に移動するのではなく斜め方向に移動し続けてしまいます。</strong></h2>
+<h2 id="その問題を解決したのが次のプログラムです"><strong>その問題を解決したのが次のプログラムです。</strong></h2>
+<p><img src="https://user-images.githubusercontent.com/122655581/218272314-fb0b409d-6339-49b7-9a97-219a542f9855.png" alt="image"></p>
+<h2 id="先のif文の否定のプログラムで重力を絶対値によりジャンプをしている判定にし重力を発生させ"><strong>先のif文の否定のプログラムで、重力を絶対値によりジャンプをしている判定にし重力を発生させ、</strong></h2>
+<h2 id="元の高さの座標を0にすることでその問題を解決しています"><strong>元の高さの座標を0にすることでその問題を解決しています。</strong></h2>
+</blockquote>
+<blockquote>
+<h1 id="bステージの生成"><strong>b.ステージの生成</strong></h1>
+<h2 id="このゲームは長いステージを作るのでは無く短いステージを一定の距離に行った時に生成をするようにしています"><strong>このゲームは長いステージを作るのでは無く、短いステージを一定の距離に行った時に生成をするようにしています。</strong></h2>
+<h2 id="それにより世界がでかくなりすぎないようにして処理を軽くしています"><strong>それにより世界がでかくなりすぎないようにして、処理を軽くしています。</strong></h2>
+<h2 id="そしてステージの生成方法ですがそれは透明なブロックをプレイヤーの座標にしそしてその透明なブロックが生成の判定をする足場と重なった時に判定をとるようにしています"><strong>そして、ステージの生成方法ですが、それは透明なブロックをプレイヤーの座標にし、そしてその透明なブロックが生成の判定をする足場と重なった時に判定をとるようにしています。</strong></h2>
+<p><img src="https://user-images.githubusercontent.com/122655581/218308105-ae421054-6ebf-47cf-be4a-18de397481ca.png" alt="ステージの追加"></p>
+<h2 id="しかし重なっている間ずっと生成されてしまうので足場の判定を削除するようにしています"><strong>しかし、重なっている間ずっと生成されてしまうので足場の判定を削除するようにしています。</strong></h2>
+<h2 id="ただ同じステージを作成するのではなくランダムでステージを作成するようにしました"><strong>ただ、同じステージを作成するのではなくランダムでステージを作成するようにしました。</strong></h2>
+</blockquote>
+<blockquote>
+<h1 id="c落下判定"><strong>c.落下判定</strong></h1>
+<h2 id="落下判定はさっきのステージ生成と同じようにプレイヤーの座標にある透明なブロックが落下判定用の透明なブロックとあった時に判定をとっています"><strong>落下判定はさっきのステージ生成と同じように、プレイヤーの座標にある透明なブロックが落下判定用の透明なブロックとあった時に判定をとっています。</strong></h2>
+<h2 id="しかし判定を細かくしないと小さい穴などが判定を取れなかったためこのようにしました"><strong>しかし、判定を細かくしないと、小さい穴などが判定を取れなかったためこのようにしました。</strong></h2>
+<p><img src="https://user-images.githubusercontent.com/122655581/218312433-a27ec8d9-fdec-4860-b379-a33f5d81d2da.png" alt="判定線"></p>
+<h2 id="このように透明判定のブロックを小さくし敷き詰めるようにし判定をとるようにしました"><strong>このように透明判定のブロックを小さくし敷き詰めるようにし判定をとるようにしました。</strong></h2>
+<h2 id="さらにプレイヤーの位置にある透明のブロックを細くすることにより違和感がない用に落下させる事が出来ました"><strong>さらにプレイヤーの位置にある透明のブロックを細くすることにより違和感がない用に落下させる事が出来ました。</strong></h2>
+<h2 id="そしてこれが落下判定のプログラムです"><strong>そしてこれが落下判定のプログラムです。</strong></h2>
+<p><img src="https://user-images.githubusercontent.com/122655581/218313392-b41efa2e-7431-41db-b28a-de0b394298bd.png" alt="落下判定"></p>
+</blockquote>
+<h1 id="8まとめ"><strong>8.まとめ</strong></h1>
+<blockquote>
+<h2 id="今回の制作でよかった点としては重力操作という独特の機能を入れることで他のオートランのゲームとの差別化を図ることが出来ました"><strong>今回の制作でよかった点としては、重力操作という独特の機能を入れることで他のオートランのゲームとの差別化を図ることが出来ました。</strong></h2>
+<h2 id="良く無かった点としてはあまりギミックを増やすことができず物足りなさを感じたので次回の作品ではそれを気を付けるようにしたいと考えました"><strong>良く無かった点としては、あまりギミックを増やすことができず物足りなさを感じたので次回の作品ではそれを気を付けるようにしたいと考えました。</strong></h2>
+</blockquote>
+
+        
+        
+    </body>
+    </html>
